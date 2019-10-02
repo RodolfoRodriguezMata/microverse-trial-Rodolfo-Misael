@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
-    <header id="header">
+    <header id="header" class="fixed-top">
         <img style=" margin: auto; width: 400px; height: 220px;" id="header-img" src="http://www.automotores-rev.com/wp-content/uploads/2018/09/Michelin_Corporate_Logo___color-660x330.jpg?x94576"/>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -43,9 +43,9 @@
     <div class="container-fluid">
       <div class="col-8">
         <div class="row justify-content-center">
-          <form id="form">
+          <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
             <input type="email" id ="email"name="email" placeholder="email address" class="form-control" /><br>
-             <input type="submit" class="btn btn-primary" id="submit" action=POST target="https://www.freecodecamp.com/email-submit">Submit</button>
+             <input type="submit" class="btn btn-primary" id="submit" >Submit</button>
           </form>
         </div>
       </div>
