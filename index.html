@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
     <header id="header">
+        <img style=" margin: auto; width: 400px; height: 220px;" id="header-img" src="http://www.automotores-rev.com/wp-content/uploads/2018/09/Michelin_Corporate_Logo___color-660x330.jpg?x94576"/>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        <img style=" margin: auto; width: 400px; height: 220px;"id="header-img "src="http://www.automotores-rev.com/wp-content/uploads/2018/09/Michelin_Corporate_Logo___color-660x330.jpg?x94576"/>
         <div class="nav-header">
           <ul>
-            <li class="nav-link">
-               <a href="#header">Home</a>
+            <li class="nav-item">
+               <button><a id="nav-link" class="nav-link" href="#header">Home</a></button>
             </li>
-            <li class="nav-link">
-               <a href="#footer">About us</a>
+            <li class="nav-item">
+               <button><a id="nav-link" class="nav-link" href="#footer">About us</a></button>
             </li>
-            <li class="nav-link">
-               <a href="#video">Extra</a>
+            <li class="nav-item">
+               <button><a id="nav-link" class="nav-link" href="#video">Extra</a></button>
             </li>
           </ul>
           
@@ -30,10 +30,27 @@
       </nav>
     </header>
   <body>
-    <div class="justify-content-center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/q12cNHZrsUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container-fluid">
+      <div class="col-12">
+        <div class="row justify-content-center">
+           <div>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/q12cNHZrsUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>>
     </div>
 
+    <div class="container-fluid">
+      <div class="col-8">
+        <div class="row justify-content-center">
+          <form id="form">
+
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <footer id="footer"></footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
